@@ -1,14 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
 import menu from '../icons/icons8-menu-50.png'
 function Navbar() {
 
   const[mobile,setMobile] = useState(false)
+  let myWin = window.innerWidth
+  console.log(myWin)
+
+
   return (
     <>
-      <div className="nav">
-        <ul className={mobile ?'nav-lines' : "nav-bar"} onClick ={
+      <div className="nav" >
+        <ul className={mobile ?'nav-lines' : "nav-bar" } onClick ={
           () =>{
             setMobile(false)
           }
@@ -33,8 +37,9 @@ function Navbar() {
       <div className="nav-mobile">
         <h1>PR</h1>
         <button onClick={ () =>
-          {setMobile(!mobile)}
-        }><img src={menu} /></button>
+          { setMobile(!mobile)} }
+          
+        >{mobile ? <img src={menu} className="hbars"/> :<img src={menu} className="bars" />}</button>
       </div>
     </>
   );

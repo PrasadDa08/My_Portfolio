@@ -1,15 +1,21 @@
 import React from "react";
 import "../App.css";
-import profile from "./prasad.jpg"
+import profile from "./prasad.jpg";
 function Home() {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <div className="intro">
-        <h1>Welcome!</h1>
-        {/* <h1>I am Prasad Datir</h1>
-        <p>A Passionate Web Developer from India.</p> */}
+        <p>Hello I am a</p>
+        <h1>Front-End Developer</h1>
+        <p>
+          As a front-end developer, I combine my passion for design and coding
+          to create immersive and user-friendly web experiences that captivate
+          audiences.
+        </p>
       </div>
-      {/* <img src={profile} alt="my_photo"/> */}
+      <div className="profile">
+        <img src={profile} />
+      </div>
     </div>
   );
 }

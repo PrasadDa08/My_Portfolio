@@ -114,6 +114,186 @@ body{
 }
 
 
+/* About ME */
+
+.about{
+  color: white;
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 5vw;
+  letter-spacing: 0.2vw;
+  
+}
+
+.about h1{
+  font-size: 3vw;
+  margin: 3vw auto;
+  padding: 2vw 2vw 2vw 2vw;
+  border: 0.1vw solid chartreuse ;
+  width: fit-content;
+  border-radius:2vw;
+  
+}
+
+.about h4{
+  font-size: 2.2vw;
+  padding: 1vw 1vw 1vw 1vw;
+  border-bottom: 0.1vw solid chartreuse ;
+  width: fit-content;
+  border-radius:2vw;
+  margin: 2.5vw 0;
+}
+
+.about span{
+  color: chartreuse;
+}
+
+.details{
+  /* border: 2px solid white; */
+}
+
+.details td{
+  font-size: 2vw;
+  /* border: 2px solid white; */
+  width: 50%;
+  padding: 1.8vw 0vw;
+}
+
+.details td span{
+  font-size: 2vw;
+  /* border: 2px solid white; */
+  width: 50%;
+  padding: 1.8vw 0vw;
+  color: rgb(152, 147, 147);
+}
+
+.skills{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 8vw;
+  padding-top: 3vw;
+}
+
+.skills h3{
+  position: relative;
+  top: 11vw;
+  text-align: center;
+  font-size: 1.8vw;
+  
+}
+
+.circular-bar1{
+  width: 10vw;
+  height: 10vw;
+  background: 
+  radial-gradient(closest-side, rgba(0, 0, 0, 100%) 70%, transparent 70% 100%),
+  conic-gradient(chartreuse 90%, rgb(152, 147, 147) 0); 
+  border-radius: 100%;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+.circular-bar2{
+  width: 10vw;
+  height: 10vw;
+  background: 
+  radial-gradient(closest-side, rgba(0, 0, 0, 100%) 70%, transparent 70% 100%),
+  conic-gradient(chartreuse 70%, rgb(152, 147, 147) 0); 
+  border-radius: 100%;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+.circular-bar3{
+  width: 10vw;
+  height: 10vw;
+  background: 
+  radial-gradient(closest-side, rgba(0, 0, 0, 100%) 70%, transparent 70% 100%),
+  conic-gradient(chartreuse 60%, rgb(152, 147, 147) 0); 
+  border-radius: 100%;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.circular-bar4{
+  width: 10vw;
+  height: 10vw;
+  background: 
+  radial-gradient(closest-side, rgba(0, 0, 0, 100%) 70%, transparent 70% 100%),
+  conic-gradient(chartreuse 60%, rgb(152, 147, 147) 0); 
+  border-radius: 100%;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.circular-bar5{
+  width: 10vw;
+  height: 10vw;
+  background: 
+  radial-gradient(closest-side, rgba(0, 0, 0, 100%) 70%, transparent 70% 100%),
+  conic-gradient(chartreuse 40%, rgb(152, 147, 147) 0); 
+  border-radius: 100%;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.circular-bar6{
+  width: 10vw;
+  height: 10vw;
+  background: 
+  radial-gradient(closest-side, rgba(0, 0, 0, 100%) 70%, transparent 70% 100%),
+  conic-gradient(chartreuse 85%, rgb(152, 147, 147) 0); 
+  border-radius: 100%;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.circular-bar7{
+  width: 10vw;
+  height: 10vw;
+  background: 
+  radial-gradient(closest-side, rgba(0, 0, 0, 100%) 70%, transparent 70% 100%),
+  conic-gradient(chartreuse 70%, rgb(152, 147, 147) 0); 
+  border-radius: 100%;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.circular-bar8{
+  width: 10vw;
+  height: 10vw;
+  background: 
+  radial-gradient(closest-side, rgba(0, 0, 0, 100%) 70%, transparent 70% 100%),
+  conic-gradient(chartreuse  50%, rgb(152, 147, 147) 0); 
+  border-radius: 100%;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.html-bar{
+  width: fit-content;
+  position: absolute;
+  z-index: 0;
+  top: 3.8vw;
+  left: 3.4vw;
+  text-align: center;
+}
+
+.skills p{
+  margin: 0;
+  font-size: 1.6vw;
+  text-align: center;
+}
+
+
+
 
 
 
@@ -151,5 +331,4 @@ body{
   .bars{
     width: 2vw;
   }
- 
 }

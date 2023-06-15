@@ -21,11 +21,11 @@ function Navbar() {
             <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#">About Me</a>
+            <a href="#about">About Me</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#">Resume</a>
-          </li>
+          </li> */}
           <li>
             <a href="#">Projects</a>
           </li>

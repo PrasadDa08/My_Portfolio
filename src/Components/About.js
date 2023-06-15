@@ -5,7 +5,7 @@ import CircularBar from './CircularBar';
 
 function About() {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
       <h1>ABOUT <span>ME</span></h1>
       <h4>Personal Infos</h4>
       <table className='details'>
@@ -27,8 +27,8 @@ function About() {
         </tr>
       </table>
       <h4>Skills</h4>
-      
       <CircularBar/>
+
       
 
     </div>

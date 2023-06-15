@@ -292,6 +292,29 @@ body{
   text-align: center;
 }
 
+/* Projects */
+
+.projects{
+  color: white;
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 5vw;
+  letter-spacing: 0.2vw;
+  
+}
+
+.projects h1{
+  font-size: 3vw;
+  margin: 3vw auto;
+  padding: 2vw 2vw 2vw 2vw;
+  border: 0.1vw solid chartreuse ;
+  width: fit-content;
+  border-radius:2vw;
+}
+
+.projects span{
+  color: chartreuse;
+}
 
 
 

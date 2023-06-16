@@ -117,12 +117,18 @@ body{
 /* About ME */
 
 .about{
+  display: flex;
+  gap: 10vw;
   color: white;
   width: 80%;
   margin-left: 10%;
   padding-top: 5vw;
   letter-spacing: 0.2vw;
   
+}
+
+.about .div1, .div2{
+  width: 40%;
 }
 
 .about h1{
@@ -149,18 +155,18 @@ body{
 }
 
 .details{
-  /* border: 2px solid white; */
+  width: 80%;
 }
 
 .details td{
-  font-size: 2vw;
+  font-size: 1vw;
   /* border: 2px solid white; */
   width: 50%;
   padding: 1.8vw 0vw;
 }
 
 .details td span{
-  font-size: 2vw;
+  font-size: 1vw;
   /* border: 2px solid white; */
   width: 50%;
   padding: 1.8vw 0vw;

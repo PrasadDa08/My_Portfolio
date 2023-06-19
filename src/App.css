@@ -117,8 +117,6 @@ body{
 /* About ME */
 
 .about{
-  display: flex;
-  gap: 10vw;
   color: white;
   width: 80%;
   margin-left: 10%;
@@ -127,9 +125,7 @@ body{
   
 }
 
-.about .div1, .div2{
-  width: 40%;
-}
+
 
 .about h1{
   font-size: 3vw;

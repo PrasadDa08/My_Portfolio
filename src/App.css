@@ -2,7 +2,8 @@
   padding: 0;
   margin: 0;
   width:100%;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
+  color: black;
 }
 
 html{
@@ -18,7 +19,7 @@ body{
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: black; 
+  /* background-color: black;  */
   border-bottom: 0.1vw solid white;
 }
 
@@ -77,7 +78,7 @@ body{
   gap: 16vw;
   width: 80%;
   padding-top: 5vw;
-  background-color: black;
+  /* background-color: black; */
   color: white;
   margin: auto;
   letter-spacing: 0.3vw;
@@ -137,6 +138,9 @@ body{
   
 }
 
+.about p{
+  text-align: justify;
+}
 .about h4{
   font-size: 2.2vw;
   padding: 1vw 1vw 1vw 1vw;
@@ -189,7 +193,7 @@ body{
   width: 10vw;
   height: 10vw;
   background: 
-  radial-gradient(closest-side, rgba(0, 0, 0, 100%) 70%, transparent 70% 100%),
+  radial-gradient(closest-side, rgb(255, 255, 255) 70%, transparent 70% 100%),
   conic-gradient(chartreuse 90%, rgb(152, 147, 147) 0); 
   border-radius: 100%;
   position: relative;
@@ -200,7 +204,7 @@ body{
   width: 10vw;
   height: 10vw;
   background: 
-  radial-gradient(closest-side, rgba(0, 0, 0, 100%) 70%, transparent 70% 100%),
+  radial-gradient(closest-side, rgba(255, 255, 255) 70%, transparent 70% 100%),
   conic-gradient(chartreuse 70%, rgb(152, 147, 147) 0); 
   border-radius: 100%;
   position: relative;
@@ -211,7 +215,7 @@ body{
   width: 10vw;
   height: 10vw;
   background: 
-  radial-gradient(closest-side, rgba(0, 0, 0, 100%) 70%, transparent 70% 100%),
+  radial-gradient(closest-side, rgba(198, 193, 193) 70%, transparent 70% 100%),
   conic-gradient(chartreuse 60%, rgb(152, 147, 147) 0); 
   border-radius: 100%;
   position: relative;
@@ -223,7 +227,7 @@ body{
   width: 10vw;
   height: 10vw;
   background: 
-  radial-gradient(closest-side, rgba(0, 0, 0, 100%) 70%, transparent 70% 100%),
+  radial-gradient(closest-side, rgba(198, 193, 193) 70%, transparent 70% 100%),
   conic-gradient(chartreuse 60%, rgb(152, 147, 147) 0); 
   border-radius: 100%;
   position: relative;
@@ -235,7 +239,7 @@ body{
   width: 10vw;
   height: 10vw;
   background: 
-  radial-gradient(closest-side, rgba(0, 0, 0, 100%) 70%, transparent 70% 100%),
+  radial-gradient(closest-side, rgba(198, 193, 193) 70%, transparent 70% 100%),
   conic-gradient(chartreuse 40%, rgb(152, 147, 147) 0); 
   border-radius: 100%;
   position: relative;
@@ -247,7 +251,7 @@ body{
   width: 10vw;
   height: 10vw;
   background: 
-  radial-gradient(closest-side, rgba(0, 0, 0, 100%) 70%, transparent 70% 100%),
+  radial-gradient(closest-side, rgba(198, 193, 193) 70%, transparent 70% 100%),
   conic-gradient(chartreuse 85%, rgb(152, 147, 147) 0); 
   border-radius: 100%;
   position: relative;
@@ -259,7 +263,7 @@ body{
   width: 10vw;
   height: 10vw;
   background: 
-  radial-gradient(closest-side, rgba(0, 0, 0, 100%) 70%, transparent 70% 100%),
+  radial-gradient(closest-side, rgba(198, 193, 193) 70%, transparent 70% 100%),
   conic-gradient(chartreuse 70%, rgb(152, 147, 147) 0); 
   border-radius: 100%;
   position: relative;
@@ -271,7 +275,7 @@ body{
   width: 10vw;
   height: 10vw;
   background: 
-  radial-gradient(closest-side, rgba(0, 0, 0, 100%) 70%, transparent 70% 100%),
+  radial-gradient(closest-side, rgba(198, 193, 193) 70%, transparent 70% 100%),
   conic-gradient(chartreuse  50%, rgb(152, 147, 147) 0); 
   border-radius: 100%;
   position: relative;

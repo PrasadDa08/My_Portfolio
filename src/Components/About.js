@@ -8,7 +8,18 @@ function About() {
       <h1>
         ABOUT <span>ME</span>
       </h1>
-      <h4>Personal Infos</h4>
+
+      <p>
+        As a front-end web developer, I specialize in creating user-facing
+        websites and applications. My primary focus is on building the visual
+        and interactive elements of a website or app using HTML, CSS, and
+        JavaScript. I work closely with designers and back-end developers to
+        ensure that the user experience is seamless and intuitive. I'm also
+        constantly learning and keeping up-to-date with the latest web
+        technologies and best practices to create cutting-edge and accessible
+        web experiences.
+      </p>
+      {/* <h4>Personal Infos</h4>
       <table className="details">
         <tr>
           <td>
@@ -42,7 +53,7 @@ function About() {
             <span>Languges :</span> Marathi, Hindi, English
           </td>
         </tr>
-      </table>
+      </table> */}
       <h4>Skills</h4>
       <CircularBar />
     </div>

@@ -4,7 +4,8 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Projects from "./Components/Projects";
-import Contact from "./Components/Contact";
+import {ContactUs} from "./Components/Contact";
+import CircularBar from "./Components/CircularBar";
 
 function App() {
   return (
@@ -12,9 +13,10 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      {/* <Resume />
+      <CircularBar />
+      {/* <Resume /> */}
       <Projects />
-      <Contact /> */}
+      <ContactUs />
     </>
   );
 }

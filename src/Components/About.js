@@ -88,8 +88,8 @@ function About() {
           </td>
         </tr>
       </table> */}
-      <h4>Skills</h4>
-      <CircularBar />
+  
+      
     </div>
   );
 }

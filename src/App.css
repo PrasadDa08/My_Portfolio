@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   width:100%;
-  background-color: rgb(255, 255, 255);
   color: black;
 }
 
@@ -27,7 +26,7 @@ body{
   width: fit-content;
   font-size: 4vw;
   padding: 1vw 4vw;
-  color: white;
+  color: black;
   font-family: 'Dancing Script', cursive;
 }
 
@@ -50,7 +49,7 @@ body{
 .nav-bar li a{
   text-decoration: none;
   padding: 0;
-  color: white;
+  color: black;
   font-weight: bolder;
 }
 
@@ -105,12 +104,12 @@ body{
 
 .profile{
   width: 40%;
-
 }
 
 .profile img{
   width: 22vw;
   border-radius: 1vw;
+  background:linear-gradient(to bottom right, rgb(243, 242, 242), rgb(131, 131, 130))
   
 }
 
@@ -123,7 +122,8 @@ body{
   margin-left: 10%;
   padding-top: 5vw;
   letter-spacing: 0.2vw;
-  
+  background-color: aquamarine;
+  border-radius: 2vw;
 }
 
 
@@ -153,7 +153,7 @@ body{
 .about span{
   color: chartreuse;
 }
-
+/* 
 .details{
   width: 80%;
 }
@@ -161,24 +161,91 @@ body{
 .details td{
   font-size: 1vw;
   /* border: 2px solid white; */
-  width: 50%;
+  /* width: 50%;
   padding: 1.8vw 0vw;
 }
 
 .details td span{
   font-size: 1vw;
   /* border: 2px solid white; */
-  width: 50%;
+  /* width: 50%;
   padding: 1.8vw 0vw;
   color: rgb(152, 147, 147);
+}  */
+
+.Details{
+  width: 110%;
+  display: flex;
+  font-weight: bolder;
+  gap: 5vw;
+  margin-left: -3.8vw;
 }
 
-.skills{
+.Details .short-intro{
+  width: 80%;
+  padding: 3vw;
+  font-size: 1.6vw;
+  align-self: center;
+  line-height: 3vw;
+  background-color : rgb(54, 146, 146);
+  border-radius: 2vw;
+
+}
+
+
+
+.Details .short-intro span{
+  font-size: 3vw;
+  padding: 0vw 0vw 0vw 7vw;
+  
+}
+
+.Details .personal-info{
+  width: 50%;
+  padding: 1vw;
+  font-size: 1.2vw;
+  background-color : rgb(54, 146, 146);
+  border-radius: 2vw;
+  
+  
+  
+}
+
+.Details .personal-info h2{
+  font-size: 2.8vw;
+  padding: 0.5vw 0vw;
+}
+.table{
   width: 100%;
+  letter-spacing: 0vw;
+  padding: 2vw 1vw 2vw 0vw;
+}
+
+
+
+.table tr td{
+  width: 60%;
+  padding: 0.5vw 1vw ;
+}
+
+.table tr .hlight{
+  width: 60%;
+  padding: 0.5vw 1vw ;
+  color: rgb(255, 255, 255);
+  font-size: 1.4vw;
+  font-weight: 800;
+}
+
+
+.skills{
+  width: 110%;
   display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-gap: 8vw;
   padding-top: 3vw;
+  background-color: rgb(54, 146, 146);
+  border-radius: 2vw;
+  margin-left: -3.8vw;
 }
 
 .skills h3{
@@ -215,7 +282,7 @@ body{
   width: 10vw;
   height: 10vw;
   background: 
-  radial-gradient(closest-side, rgba(198, 193, 193) 70%, transparent 70% 100%),
+  radial-gradient(closest-side, rgba(255, 255, 255) 70%, transparent 70% 100%),
   conic-gradient(chartreuse 60%, rgb(152, 147, 147) 0); 
   border-radius: 100%;
   position: relative;
@@ -227,7 +294,7 @@ body{
   width: 10vw;
   height: 10vw;
   background: 
-  radial-gradient(closest-side, rgba(198, 193, 193) 70%, transparent 70% 100%),
+  radial-gradient(closest-side, rgba(255, 255, 255) 70%, transparent 70% 100%),
   conic-gradient(chartreuse 60%, rgb(152, 147, 147) 0); 
   border-radius: 100%;
   position: relative;
@@ -239,7 +306,7 @@ body{
   width: 10vw;
   height: 10vw;
   background: 
-  radial-gradient(closest-side, rgba(198, 193, 193) 70%, transparent 70% 100%),
+  radial-gradient(closest-side, rgba(255, 255, 255) 70%, transparent 70% 100%),
   conic-gradient(chartreuse 40%, rgb(152, 147, 147) 0); 
   border-radius: 100%;
   position: relative;
@@ -251,7 +318,7 @@ body{
   width: 10vw;
   height: 10vw;
   background: 
-  radial-gradient(closest-side, rgba(198, 193, 193) 70%, transparent 70% 100%),
+  radial-gradient(closest-side, rgba(255, 255, 255) 70%, transparent 70% 100%),
   conic-gradient(chartreuse 85%, rgb(152, 147, 147) 0); 
   border-radius: 100%;
   position: relative;
@@ -263,7 +330,7 @@ body{
   width: 10vw;
   height: 10vw;
   background: 
-  radial-gradient(closest-side, rgba(198, 193, 193) 70%, transparent 70% 100%),
+  radial-gradient(closest-side, rgba(255, 255, 255) 70%, transparent 70% 100%),
   conic-gradient(chartreuse 70%, rgb(152, 147, 147) 0); 
   border-radius: 100%;
   position: relative;
@@ -275,7 +342,7 @@ body{
   width: 10vw;
   height: 10vw;
   background: 
-  radial-gradient(closest-side, rgba(198, 193, 193) 70%, transparent 70% 100%),
+  radial-gradient(closest-side, rgba(255, 255, 255) 70%, transparent 70% 100%),
   conic-gradient(chartreuse  50%, rgb(152, 147, 147) 0); 
   border-radius: 100%;
   position: relative;

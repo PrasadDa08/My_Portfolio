@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import profile from "./prasad.jpg";
+import profile from "./prasad-removebg-preview.png";
 function Home() {
   return (
     <div className="home" id="home">

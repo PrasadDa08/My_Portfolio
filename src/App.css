@@ -498,25 +498,65 @@ body{
   .nav-lines{
     display: block;
     position: absolute;
+    padding: 2vw;
     text-align: center;
     list-style: none;
-    background-color: cadetblue;
-    width: 100%;
+    background-color:rgb(100, 171, 173, 0.5);
     transition: 2s;
+    z-index: 4;
+    width: 96%;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+  }
+
+  .nav-lines li{
+    width: 100%;
+  }
+
+  .nav-lines a{
+    font-size: 2vw;
+    text-decoration: none;
+    line-height: 8vw;
+    color: white;
+    font-weight: bold;
+    width: 100%;
   }
   
+  .overlay{
+    position: absolute;
+    background-color: rgba(12, 12, 12, 0.8);
+    backdrop-filter: blur(15px);
+    width: 100%;
+    z-index: 3;
+    height: 100%;
+  }
   .nav-mobile{
     display: flex;
     justify-content: space-between;
     background-color: cadetblue;
     width: 100%;
   }
-  button{
-    width:2vw;
-    position: relative;
-    z-index: 3;
+
+  .nav-mobile h1{
+    width: fit-content;
+    font-size: 4vw;
+    padding: 1vw 4vw;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    z-index: 5;
   }
-  .bars{
-    width: 2vw;
+
+
+  button{
+    width:fit-content;
+    position: relative;
+    z-index: 5;
+    border: none;
+    background-color:rgba(73, 122, 123, 0.5);
+  
+  }
+  .main-img{
+    width: 6vw;
+    color: white;
   }
 }

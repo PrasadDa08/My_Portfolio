@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { a } from "react-router-dom";
 import "../App.css";
-import menu from "../icons/icons8-menu-50.png";
+import menu from "../icons/arrow.png";
+import menu1 from "../icons/bars.png";
 function Navbar() {
   const [mobile, setMobile] = useState(false);
   let myWin = window.innerWidth;
@@ -9,6 +10,9 @@ function Navbar() {
 
   return (
     <>
+    <div className={mobile && "overlay"} onClick={()=>setMobile(!mobile)}>
+
+    </div>
       <div className="nav">
         <h1 className="logo">Prasad</h1>
         <ul
@@ -35,18 +39,10 @@ function Navbar() {
         </ul>
       </div>
       <div className="nav-mobile">
-        <h1>PR</h1>
-        <button
-          onClick={() => {
-            setMobile(!mobile);
-          }}
-        >
-          {mobile ? (
-            <img src={menu} className="hbars" />
-          ) : (
-            <img src={menu} className="bars" />
-          )}
-        </button>
+        <h1>Prasad</h1>
+       
+          <button onClick={()=>setMobile(!mobile)}>{mobile ? <img src={menu} className="main-img"/> : <img src={menu1} className="main-img"/>}</button>
+        
       </div>
     </>
   );

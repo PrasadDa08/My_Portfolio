@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { a } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../App.css";
+import "../MediaScreen.css";
 import menu from "../icons/arrow.png";
 import menu1 from "../icons/bars.png";
 function Navbar() {
@@ -14,7 +15,7 @@ function Navbar() {
 
     </div>
       <div className="nav">
-        <h1 className="logo">Prasad</h1>
+        <h1>Prasad</h1>
         <ul
           className={mobile ? "nav-lines" : "nav-bar"}
           onClick={() => {
@@ -22,7 +23,7 @@ function Navbar() {
           }}
         >
           <li>
-            <a href="#home">Home</a>
+            <a href='#home'>Home </a>
           </li>
           <li>
             <a href="#about">About Me</a>

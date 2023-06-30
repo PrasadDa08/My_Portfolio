@@ -1,9 +1,10 @@
 import React from "react";
 import "../App.css";
+import "../MediaScreen.css";
 import profile from "./prasad-removebg-preview.png";
 function Home() {
   return (
-    <div className="home" id="home">
+    <div className="home mobile-home" id="home" >
       <div className="intro">
         <p>Hello I am a</p>
         <h1>Front-End Developer</h1>

@@ -208,7 +208,23 @@
     margin: 1.3vw;
     font-size: 2.8vw;
     text-align: center;
+  }
 
+  /* projects page */
+  /* .projects{
+    width: 100%;
+  } */
+  .project-content{
+    display: flex; 
+    flex-direction: row;
+    overflow: scroll;
+    white-space:nowrap;
+    padding: 3vw;
+  }
+
+  .project-card{
+    width: 30vw;
+    padding: 0.3vw;
   }
 
 }

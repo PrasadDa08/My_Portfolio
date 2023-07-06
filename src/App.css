@@ -386,16 +386,28 @@ body{
 
 
 .project-container{
+  display: flex;
   position: relative;
-  width: 50%;
-  height: 50vw;
+  width:80%;
   margin: 0 auto;
+  border: 0.2vw solid;
   border-radius: 1vw;
   text-align: center;
+  padding: 4vw;
 }
 
-.project-container .main-img{
-  width: 80%;
+.image-container{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  padding: 3vw;
+  margin-left: 3vw;
+
+}
+
+.image-container .main-img{
+  width: 15vw;
+  height: 12.5vw;
   border-radius: 1vw;
   z-index: 1;
   
@@ -403,48 +415,55 @@ body{
 
 .project-container .left-btn{
   position: absolute;
-  top: 25%;
+  top: 35%;
   font-size: 5vw;
   font-weight: 900;
-  /* color: white; */
-  left: -5%;
+  left: 2vw;
   z-index: 2;
 }
 
 .project-container .right-btn{
   position: absolute;
-  top: 25%;
+  top: 35%;
   font-size: 5vw;
   font-weight: 900;
-  /* color: white; */
-  right: -5%;
+  right: 2vw;
   z-index: 2;
 }
 
-.image-container{
-  display: flex;
-  justify-content: center;
-}
+
 
 .image-container img{
-  object-fit: cover;
-  aspect-ratio: 3/2;
+  object-fit:cover;
+  aspect-ratio: 3/2.5;
+
   
 }
 .image-container .previous-img{
-  width: 60%;
-  position: absolute;
-  left: -8vw;
-  top: 5vw;
+  width: 15vw;
+  height: 10vw;
+  position: relative;
+  left: 6vw;
+  top: 1.5vw;
   opacity: 0.5;
+  border-radius: 1vw;
+  
 }
 
 .image-container .next-img{
-  width: 60%;
-  position: absolute;
-  right: -8vw;
-  top: 5vw;
+  width: 15vw;
+  height: 10vw;
+  position: relative;
   opacity: 0.5;
+  right: 6vw;
+  top: 1.5vw;
+  border-radius: 1vw;
+}
+
+.project-details{
+  padding: 2vw;
+  width: 50%;
+  position: relative;
 }
 
 .project-dots{

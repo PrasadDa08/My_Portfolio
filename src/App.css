@@ -11,14 +11,18 @@ html{
 body{
   font-family: 'Roboto';font-size: 22px;
   width: 100%;
+  background-color: black;
 }
 
 .nav{
   width: 100%;
   display: flex;
   justify-content: space-between;
-  border-bottom: 0.1vw solid white;
-  background-color: aquamarine;
+  border-bottom: 0.2vw solid rgb(0, 0, 0);
+  background-color: white;
+  border-bottom-left-radius: 1vw;
+  border-bottom-right-radius: 1vw;
+  
 }
 
 .nav h1{
@@ -78,11 +82,14 @@ body{
   display: flex;
   gap: 16vw;
   width: 80%;
-  padding-top: 5vw;
+  padding: 5vw 0 ;
   color: white;
-  margin: auto;
+  margin:2vw auto;
   letter-spacing: 0.3vw;
   line-height: 2.2vw;
+  background-color: white;
+  border: 0.2vw solid;
+  border-radius: 1vw;
 }
 
 .home .intro{
@@ -123,8 +130,9 @@ body{
   margin: 3vw auto;
   padding: 2vw 0 3vw 0;
   letter-spacing: 0.2vw;
-  background-color: aquamarine;
+  border: 0.2vw solid black;
   border-radius: 2vw;
+  background-color: white;
 }
 
 
@@ -176,22 +184,22 @@ body{
 }  */
 
 .Details{
-  width: 110%;
+  width: 90%;
   display: flex;
   font-weight: bolder;
-  gap: 5vw;
-  margin-left: -3.8vw;
+  gap: 1vw;
+  margin: auto;
 }
 
 .Details .short-intro{
-  width: 80%;
+  width: 60%;
   padding: 3vw;
   font-size: 1.6vw;
   align-self: center;
   line-height: 3vw;
-  background-color : rgb(54, 146, 146);
+  border: 0.2vw solid;
   border-radius: 2vw;
-
+  background-color: white;
 }
 
 
@@ -203,11 +211,12 @@ body{
 }
 
 .Details .personal-info{
-  width: 50%;
+  width: 40%;
   padding: 1vw;
   font-size: 1.2vw;
-  background-color : rgb(54, 146, 146);
+  border: 0.2vw solid;
   border-radius: 2vw;
+  background-color: white;
   
   
   
@@ -233,7 +242,7 @@ body{
 .table tr .hlight{
   width: 60%;
   padding: 0.5vw 1vw ;
-  color: rgb(255, 255, 255);
+  color: rgb(1, 1, 1);
   font-size: 1.4vw;
   font-weight: 800;
 }
@@ -241,11 +250,13 @@ body{
 .main{
   width: 80%;
   margin: 3vw auto;
-  background-color: rgb(54, 146, 146);
+  border: 0.2vw solid;
   border-radius: 2vw;
   align-items: center;
   text-align: center;
-  padding: 3vw 3vw;
+  padding: 3vw 3vw; 
+  background-color: white;
+
 }
 
 
@@ -257,6 +268,7 @@ body{
   padding-top: 3vw;
   margin: auto;
   padding-bottom: 5vw;
+  background-color: white;
   
 }
 
@@ -384,16 +396,21 @@ body{
 
 /* Projects */
 
-
+.Projects{
+  border: 0.2vw solid;
+  border-radius: 1vw;
+  width: 80%;
+  margin: auto;
+  padding: 2vw;
+  background-color: white;
+}
 .project-container{
   display: flex;
   position: relative;
-  width:80%;
-  margin: 0 auto;
-  border: 0.2vw solid;
-  border-radius: 1vw;
+  width:100%;
+  margin: auto;
   text-align: center;
-  padding: 4vw;
+  padding: 2vw;
 }
 
 .image-container{
@@ -401,7 +418,8 @@ body{
   display: flex;
   justify-content: center;
   padding: 3vw;
-  margin-left: 3vw;
+  margin-left: 1.5vw;
+  margin-top: 1.7vw;
 
 }
 
@@ -415,19 +433,19 @@ body{
 
 .project-container .left-btn{
   position: absolute;
-  top: 35%;
+  top: 38%;
   font-size: 5vw;
   font-weight: 900;
-  left: 2vw;
+  left: 0vw;
   z-index: 2;
 }
 
 .project-container .right-btn{
   position: absolute;
-  top: 35%;
+  top: 42%;
   font-size: 5vw;
   font-weight: 900;
-  right: 2vw;
+  right: 4vw;
   z-index: 2;
 }
 
@@ -464,6 +482,35 @@ body{
   padding: 2vw;
   width: 50%;
   position: relative;
+  text-align: center;
+  align-self: center;
+}
+
+.project-details h3{
+  font-size: 3vw;
+  font-weight: bold;
+  font-style: italic;
+  padding: 1vw;
+}
+
+.project-details p{
+  font-size: 2vw;
+}
+
+.project-details button{
+  padding: 1.5vw;
+  font-size: 2.2vw;
+  border: 0.2vw solid;
+  border-radius:1vw ;
+  background-color: white;
+  margin: 0;
+}
+
+.project-links{
+  display: flex;
+  gap: 1vw;
+  padding: 2vw 2vw 2vw 0vw;
+  justify-content: center;
 }
 
 .project-dots{
@@ -473,12 +520,8 @@ body{
 }
 
 .project-dots h1{
-  color: brown;
+  color: rgb(2, 2, 2);
   font-size: 3vw;
-}
-
-.active, .project-dots h1:hover{
-  color: aqua;
 }
 
 /* .projects{
@@ -542,9 +585,10 @@ body{
   width: 80%;
   margin: 4vw auto;
   text-align: center;
-  background-color: aquamarine;
   border-radius: 2vw;
   position: relative;
+  border: 0.2vw solid;
+  background-color: white;
 }
 
 .form-details{
@@ -559,6 +603,7 @@ body{
   padding: 1vw;
   margin:  1vw auto ;
   width: 90%;
+  border: 0.2vw solid;
 }
 
 .form-details textarea{

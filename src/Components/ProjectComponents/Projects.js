@@ -1,10 +1,10 @@
 import React from 'react'
-import rps from "../images/Screenshot 2023-06-23 at 1.58.56 AM.png"
+import rps from "../../images/Screenshot 2023-06-23 at 1.58.56 AM.png"
 import { Link } from 'react-router-dom'
-import image1 from '../images/download.jpeg'
-import image2 from '../images/download (1).jpeg'
-import image3 from '../images/download (2).jpeg'
-import image4 from '../images/images.png'
+import image1 from '../../images/images.png'
+import image2 from '../../images/download (1).jpeg'
+import image3 from '../../images/download (2).jpeg'
+import image4 from '../../images/images.png'
 
 import ProjectItems from './ProjectItems'
 function Projects() {

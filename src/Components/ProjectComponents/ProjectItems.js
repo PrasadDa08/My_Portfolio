@@ -21,7 +21,7 @@ function ProjectItems({ projects }) {
   };
 
   return (
-    <>
+    <div className="Projects">
       <div className="project-container">
         {/* Left-Right Buttons */}
         <div className="left-btn" onClick={goToleft}>
@@ -60,8 +60,8 @@ function ProjectItems({ projects }) {
 
           {/* Project Links */}
           <div className="project-links">
-            <p>GitHup</p>
-            <p>Replit</p>
+            <a href={projects[currenIndex].github}><button>GitHup</button></a>
+            <a href={projects[currenIndex].replit}><button>Replit</button></a>
           </div>
         </div>
       </div>
@@ -75,7 +75,7 @@ function ProjectItems({ projects }) {
           );
         })}
       </div>
-    </>
+    </div>
   );
 }
 

@@ -3,7 +3,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Resume from "./Components/Resume";
-import Projects from "./Components/Projects";
+import Projects from "./Components/ProjectComponents/Projects";
 import {ContactUs} from "./Components/Contact";
 import CircularBar from "./Components/CircularBar";
 

@@ -70,7 +70,7 @@ function ProjectItems({ projects }) {
         {projects.map((project, projectIndex) => {
           return (
             <h1 onClick={() => goToProject(projectIndex)}>
-              {projectIndex === currenIndex ? "●" : "○"}
+              {projectIndex === currenIndex ? "◉" : "◎"}
             </h1>
           );
         })}
